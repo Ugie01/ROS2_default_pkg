@@ -1,4 +1,0 @@
-source;share/node_action/local_setup.bash
-source;share/node_action/local_setup.dsv
-source;share/node_action/local_setup.sh
-source;share/node_action/local_setup.zsh

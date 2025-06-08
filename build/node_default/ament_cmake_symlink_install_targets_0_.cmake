@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ugie_home/Wook/blog_ws/build/node_default/node_1" "/home/ugie_home/Wook/blog_ws/build/node_default/node_2" "TARGETS" "node_1" "node_2" "DESTINATION" "lib/node_default")

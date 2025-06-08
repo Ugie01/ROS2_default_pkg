@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ugie_home/Wook/blog_ws/build/node_action/action_client" "/home/ugie_home/Wook/blog_ws/build/node_action/action_server" "TARGETS" "action_client" "action_server" "DESTINATION" "lib/node_action")

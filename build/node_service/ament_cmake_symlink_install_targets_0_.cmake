@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ugie_home/Wook/blog_ws/build/node_service/service_client" "/home/ugie_home/Wook/blog_ws/build/node_service/service_server" "TARGETS" "service_client" "service_server" "DESTINATION" "lib/node_service")
