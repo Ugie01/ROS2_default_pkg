@@ -1,4 +1,0 @@
-Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_service -- -j12 -l12
-Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_service -- -j12 -l12
-Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_service
-Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_service
