@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_action': CMAKE_PREFIX_PATH=/home/ugie_home/Wook/blog_ws/install/custom_interfaces:/home/ugie_home/Wook/blog_ws/install/node_action:/home/ugie_home/Wook/blog_ws/install/node_topic:/home/ugie_home/Wook/blog_ws/install/node_service:/home/ugie_home/Wook/blog_ws/install/node_default:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_action -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.051s] [ 50%] Built target action_server
+[0.056s] [ 75%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[2.640s] [100%] [32m[1mLinking CXX executable action_client[0m
+[2.748s] [100%] Built target action_client
+[2.756s] Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_action' returned '0': CMAKE_PREFIX_PATH=/home/ugie_home/Wook/blog_ws/install/custom_interfaces:/home/ugie_home/Wook/blog_ws/install/node_action:/home/ugie_home/Wook/blog_ws/install/node_topic:/home/ugie_home/Wook/blog_ws/install/node_service:/home/ugie_home/Wook/blog_ws/install/node_default:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_action -- -j12 -l12
+[2.758s] Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_action': CMAKE_PREFIX_PATH=/home/ugie_home/Wook/blog_ws/install/custom_interfaces:/home/ugie_home/Wook/blog_ws/install/node_action:/home/ugie_home/Wook/blog_ws/install/node_topic:/home/ugie_home/Wook/blog_ws/install/node_service:/home/ugie_home/Wook/blog_ws/install/node_default:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_action
+[2.762s] -- Install configuration: ""
+[2.763s] -- Execute custom install script
+[2.763s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/lib/node_action/action_client
+[2.763s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/lib/node_action/action_server
+[2.763s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/ament_index/resource_index/package_run_dependencies/node_action
+[2.763s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/ament_index/resource_index/parent_prefix_path/node_action
+[2.764s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/environment/ament_prefix_path.sh
+[2.764s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/environment/ament_prefix_path.dsv
+[2.764s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/environment/path.sh
+[2.764s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/environment/path.dsv
+[2.764s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/local_setup.bash
+[2.764s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/local_setup.sh
+[2.764s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/local_setup.zsh
+[2.764s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/local_setup.dsv
+[2.764s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.dsv
+[2.771s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/ament_index/resource_index/packages/node_action
+[2.771s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/cmake/node_actionConfig.cmake
+[2.771s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/cmake/node_actionConfig-version.cmake
+[2.771s] -- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.xml
+[2.773s] Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_action' returned '0': CMAKE_PREFIX_PATH=/home/ugie_home/Wook/blog_ws/install/custom_interfaces:/home/ugie_home/Wook/blog_ws/install/node_action:/home/ugie_home/Wook/blog_ws/install/node_topic:/home/ugie_home/Wook/blog_ws/install/node_service:/home/ugie_home/Wook/blog_ws/install/node_default:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_action

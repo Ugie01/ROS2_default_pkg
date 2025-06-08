@@ -1,0 +1,1 @@
+/home/ugie_home/Wook/blog_ws/build/node_service/ament_cmake_environment_hooks/local_setup.sh

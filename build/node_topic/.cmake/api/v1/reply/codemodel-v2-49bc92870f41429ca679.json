@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e23ade3a4ed13d8ea5d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "node_topic",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "node_topic_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node_topic_uninstall-5dfb3d890bf981af2b68.json",
+					"name" : "node_topic_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher-ec2de76a9b5a36a61650.json",
+					"name" : "publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber-dfeb41e155620e77a67b.json",
+					"name" : "subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d4c68da14a4ada6341f1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ugie_home/Wook/blog_ws/build/node_topic",
+		"source" : "/home/ugie_home/Wook/blog_ws/src/node_topic"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

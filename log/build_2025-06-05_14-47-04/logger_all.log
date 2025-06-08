@@ -1,0 +1,409 @@
+[0.074s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.074s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78789e14ad70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x78789e263ca0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x78789e263ca0>>, mixin_verb=('build',))
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.197s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ugie_home/Wook/blog_ws'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_action) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/node_action' with type 'ros.ament_cmake' and name 'node_action'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_default) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/node_default' with type 'ros.ament_cmake' and name 'node_default'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_service) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/node_service' with type 'ros.ament_cmake' and name 'node_service'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/node_topic) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/node_topic' with type 'ros.ament_cmake' and name 'node_topic'
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.229s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ugie_home/Wook/blog_ws/install/node_topic' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.230s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ugie_home/Wook/blog_ws/install/node_topic' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ugie_home/Wook/blog_ws/install
+[0.231s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 420 installed packages in /opt/ros/humble
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugie_home/Wook/blog_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugie_home/Wook/blog_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/ugie_home/Wook/blog_ws/src/custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'cmake_target' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'cmake_clean_cache' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'cmake_clean_first' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'cmake_force_configure' from command line to 'False'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'ament_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'catkin_cmake_args' from command line to 'None'
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'node_default' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.269s] DEBUG:colcon.colcon_core.verb:Building package 'node_default' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugie_home/Wook/blog_ws/build/node_default', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugie_home/Wook/blog_ws/install/node_default', 'merge_install': False, 'path': '/home/ugie_home/Wook/blog_ws/src/node_default', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'node_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugie_home/Wook/blog_ws/build/node_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugie_home/Wook/blog_ws/install/node_service', 'merge_install': False, 'path': '/home/ugie_home/Wook/blog_ws/src/node_service', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'node_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugie_home/Wook/blog_ws/build/node_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugie_home/Wook/blog_ws/install/node_topic', 'merge_install': False, 'path': '/home/ugie_home/Wook/blog_ws/src/node_topic', 'symlink_install': True, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'node_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'node_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ugie_home/Wook/blog_ws/build/node_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ugie_home/Wook/blog_ws/install/node_action', 'merge_install': False, 'path': '/home/ugie_home/Wook/blog_ws/src/node_action', 'symlink_install': True, 'test_result_base': None}
+[0.271s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.271s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugie_home/Wook/blog_ws/src/custom_interfaces' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugie_home/Wook/blog_ws/src/custom_interfaces'
+[0.273s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.273s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.273s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.276s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugie_home/Wook/blog_ws/src/node_default' with build type 'ament_cmake'
+[0.276s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugie_home/Wook/blog_ws/src/node_default'
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugie_home/Wook/blog_ws/src/node_service' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugie_home/Wook/blog_ws/src/node_service'
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugie_home/Wook/blog_ws/src/node_topic' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugie_home/Wook/blog_ws/src/node_topic'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/custom_interfaces -- -j12 -l12
+[0.289s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_default': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_default -- -j12 -l12
+[0.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_service -- -j12 -l12
+[0.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_topic -- -j12 -l12
+[0.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_default' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_default -- -j12 -l12
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_default': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_default
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_service -- -j12 -l12
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_service
+[0.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_topic -- -j12 -l12
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_topic
+[0.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_default)
+[0.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_default' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_default
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default' for CMake module files
+[0.380s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default' for CMake config files
+[0.381s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_default', 'cmake_prefix_path')
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/hook/cmake_prefix_path.ps1'
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/hook/cmake_prefix_path.dsv'
+[0.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/hook/cmake_prefix_path.sh'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/lib'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/bin'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/lib/pkgconfig/node_default.pc'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/lib/python3.10/site-packages'
+[0.383s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/bin'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.ps1'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.dsv'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.sh'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.bash'
+[0.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.zsh'
+[0.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/node_default/share/colcon-core/packages/node_default)
+[0.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_default)
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default' for CMake module files
+[0.387s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default' for CMake config files
+[0.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_default', 'cmake_prefix_path')
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/hook/cmake_prefix_path.ps1'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/hook/cmake_prefix_path.dsv'
+[0.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/hook/cmake_prefix_path.sh'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/lib'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/bin'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/lib/pkgconfig/node_default.pc'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/lib/python3.10/site-packages'
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_default/bin'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.ps1'
+[0.389s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.sh'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.bash'
+[0.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.zsh'
+[0.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/node_default/share/colcon-core/packages/node_default)
+[0.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_service)
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service' for CMake module files
+[0.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_service
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service' for CMake config files
+[0.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_service', 'cmake_prefix_path')
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/hook/cmake_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/hook/cmake_prefix_path.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/hook/cmake_prefix_path.sh'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/lib'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/bin'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/lib/pkgconfig/node_service.pc'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/lib/python3.10/site-packages'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/bin'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.ps1'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.dsv'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.sh'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.bash'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.zsh'
+[0.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/node_service/share/colcon-core/packages/node_service)
+[0.396s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_service)
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service' for CMake module files
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service' for CMake config files
+[0.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_service', 'cmake_prefix_path')
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/hook/cmake_prefix_path.ps1'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/hook/cmake_prefix_path.dsv'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/hook/cmake_prefix_path.sh'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/lib'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/bin'
+[0.397s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/lib/pkgconfig/node_service.pc'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/lib/python3.10/site-packages'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_service/bin'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.ps1'
+[0.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.dsv'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.sh'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.bash'
+[0.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.zsh'
+[0.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/node_service/share/colcon-core/packages/node_service)
+[0.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_topic)
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic' for CMake module files
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_topic
+[0.482s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic' for CMake config files
+[0.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_topic', 'cmake_prefix_path')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/hook/cmake_prefix_path.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/hook/cmake_prefix_path.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/hook/cmake_prefix_path.sh'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/lib'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/bin'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/lib/pkgconfig/node_topic.pc'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/lib/python3.10/site-packages'
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/bin'
+[0.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.ps1'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.bash'
+[0.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.zsh'
+[0.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/node_topic/share/colcon-core/packages/node_topic)
+[0.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_topic)
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic' for CMake module files
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic' for CMake config files
+[0.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_topic', 'cmake_prefix_path')
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/hook/cmake_prefix_path.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/hook/cmake_prefix_path.dsv'
+[0.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/hook/cmake_prefix_path.sh'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/lib'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/bin'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/lib/pkgconfig/node_topic.pc'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/lib/python3.10/site-packages'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_topic/bin'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.sh'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.bash'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_topic/share/node_topic/package.zsh'
+[0.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/node_topic/share/colcon-core/packages/node_topic)
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/custom_interfaces -- -j12 -l12
+[0.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/custom_interfaces
+[0.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces' for CMake module files
+[0.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/custom_interfaces
+[0.603s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces' for CMake config files
+[0.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[0.604s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/lib'
+[0.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/bin'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/bin'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[0.608s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[0.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces' for CMake module files
+[0.610s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces' for CMake config files
+[0.610s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[0.611s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/lib'
+[0.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[0.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/bin'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[0.613s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/bin'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[0.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[0.615s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ugie_home/Wook/blog_ws/src/node_action' with build type 'ament_cmake'
+[0.615s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ugie_home/Wook/blog_ws/src/node_action'
+[0.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ugie_home/Wook/blog_ws/src/node_action -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugie_home/Wook/blog_ws/install/node_action
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ugie_home/Wook/blog_ws/src/node_action -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugie_home/Wook/blog_ws/install/node_action
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_action -- -j12 -l12
+[3.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_action -- -j12 -l12
+[3.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_action': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_action
+[3.896s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_action)
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action' for CMake module files
+[3.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_action' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_action
+[3.897s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action' for CMake config files
+[3.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_action', 'cmake_prefix_path')
+[3.898s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/hook/cmake_prefix_path.ps1'
+[3.898s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/hook/cmake_prefix_path.dsv'
+[3.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/hook/cmake_prefix_path.sh'
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/lib'
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/bin'
+[3.899s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/lib/pkgconfig/node_action.pc'
+[3.900s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/lib/python3.10/site-packages'
+[3.900s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/bin'
+[3.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.ps1'
+[3.901s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.dsv'
+[3.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.sh'
+[3.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.bash'
+[3.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.zsh'
+[3.902s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/node_action/share/colcon-core/packages/node_action)
+[3.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(node_action)
+[3.903s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action' for CMake module files
+[3.904s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action' for CMake config files
+[3.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('node_action', 'cmake_prefix_path')
+[3.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/hook/cmake_prefix_path.ps1'
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/hook/cmake_prefix_path.dsv'
+[3.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/hook/cmake_prefix_path.sh'
+[3.905s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/lib'
+[3.905s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/bin'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/lib/pkgconfig/node_action.pc'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/lib/python3.10/site-packages'
+[3.906s] Level 1:colcon.colcon_core.environment:checking '/home/ugie_home/Wook/blog_ws/install/node_action/bin'
+[3.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.ps1'
+[3.907s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.dsv'
+[3.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.sh'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.bash'
+[3.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/ugie_home/Wook/blog_ws/install/node_action/share/node_action/package.zsh'
+[3.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ugie_home/Wook/blog_ws/install/node_action/share/colcon-core/packages/node_action)
+[3.909s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.909s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.909s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.909s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.914s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.914s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.924s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.924s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugie_home/Wook/blog_ws/install/local_setup.ps1'
+[3.925s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ugie_home/Wook/blog_ws/install/_local_setup_util_ps1.py'
+[3.927s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugie_home/Wook/blog_ws/install/setup.ps1'
+[3.928s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugie_home/Wook/blog_ws/install/local_setup.sh'
+[3.928s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ugie_home/Wook/blog_ws/install/_local_setup_util_sh.py'
+[3.929s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugie_home/Wook/blog_ws/install/setup.sh'
+[3.930s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugie_home/Wook/blog_ws/install/local_setup.bash'
+[3.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugie_home/Wook/blog_ws/install/setup.bash'
+[3.931s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ugie_home/Wook/blog_ws/install/local_setup.zsh'
+[3.932s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ugie_home/Wook/blog_ws/install/setup.zsh'

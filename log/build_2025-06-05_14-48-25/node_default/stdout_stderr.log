@@ -1,0 +1,21 @@
+[ 50%] Built target node_2
+[100%] Built target node_1
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/lib/node_default/node_1
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/lib/node_default/node_2
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/ament_index/resource_index/package_run_dependencies/node_default
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/ament_index/resource_index/parent_prefix_path/node_default
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/environment/path.sh
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/environment/path.dsv
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/local_setup.bash
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/local_setup.sh
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/local_setup.zsh
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/local_setup.dsv
+-- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.dsv
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/ament_index/resource_index/packages/node_default
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/cmake/node_defaultConfig.cmake
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/cmake/node_defaultConfig-version.cmake
+-- Up-to-date symlink: /home/ugie_home/Wook/blog_ws/install/node_default/share/node_default/package.xml

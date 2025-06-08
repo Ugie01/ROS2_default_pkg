@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9a80e5966c69a5e5fcdb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "node_action",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client-7a7c3d26e18947265d13.json",
+					"name" : "action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_server-245bc9834ac3bbc5c26a.json",
+					"name" : "action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "node_action_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node_action_uninstall-bff84bd433daf3b54f51.json",
+					"name" : "node_action_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-abf7e1a6ea933a78f90a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ugie_home/Wook/blog_ws/build/node_action",
+		"source" : "/home/ugie_home/Wook/blog_ws/src/node_action"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

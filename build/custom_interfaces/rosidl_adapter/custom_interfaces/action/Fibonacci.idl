@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from custom_interfaces/action/Fibonacci.action
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module action {
+    struct Fibonacci_Goal {
+      @verbatim (language="comment", text=
+        "Goal: 생성할 수열 길이 (클라이언트 → 서버)")
+      int32 order;
+    };
+    struct Fibonacci_Result {
+      @verbatim (language="comment", text=
+        "Result: 완성된 수열 (서버 → 클라이언트)")
+      sequence<int32> sequence;
+    };
+    struct Fibonacci_Feedback {
+      @verbatim (language="comment", text=
+        "Feedback: 현재까지 생성된 수열 (서버 → 클라이언트)")
+      sequence<int32> partial;
+    };
+  };
+};

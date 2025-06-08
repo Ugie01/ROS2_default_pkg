@@ -1,0 +1,74 @@
+[0.011s] Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ugie_home/Wook/blog_ws/src/node_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugie_home/Wook/blog_ws/install/node_service
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.144s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.156s] -- Detecting CXX compiler ABI info
+[0.215s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.222s] -- Detecting CXX compile features - done
+[0.224s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.329s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.374s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.406s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.440s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.450s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.503s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.505s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.573s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.602s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.640s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.647s] -- Looking for pthread.h
+[0.700s] -- Looking for pthread.h - found
+[0.700s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.755s] -- Found Threads: TRUE  
+[0.792s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.824s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.882s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.882s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ugie_home/Wook/blog_ws/src/node_service/include>
+[0.882s] -- Configured cppcheck exclude dirs and/or files: 
+[0.883s] -- Added test 'lint_cmake' to check CMake code style
+[0.883s] -- Added test 'uncrustify' to check C / C++ code style
+[0.884s] -- Configured uncrustify additional arguments: 
+[0.884s] -- Added test 'xmllint' to check XML markup files
+[0.885s] -- Configuring done
+[0.895s] -- Generating done
+[0.899s] -- Build files have been written to: /home/ugie_home/Wook/blog_ws/build/node_service
+[0.907s] Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ugie_home/Wook/blog_ws/src/node_service -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ugie_home/Wook/blog_ws/install/node_service
+[0.908s] Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_service -- -j12 -l12
+[0.945s] [ 25%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[0.948s] [ 50%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[4.055s] [ 75%] [32m[1mLinking CXX executable service_server[0m
+[4.167s] [ 75%] Built target service_server
+[4.563s] [100%] [32m[1mLinking CXX executable service_client[0m
+[4.677s] [100%] Built target service_client
+[4.686s] Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ugie_home/Wook/blog_ws/build/node_service -- -j12 -l12
+[4.688s] Invoking command in '/home/ugie_home/Wook/blog_ws/build/node_service': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_service
+[4.694s] -- Install configuration: ""
+[4.694s] -- Execute custom install script
+[4.694s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/lib/node_service/service_client
+[4.702s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/lib/node_service/service_server
+[4.709s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/ament_index/resource_index/package_run_dependencies/node_service
+[4.717s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/ament_index/resource_index/parent_prefix_path/node_service
+[4.724s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/environment/ament_prefix_path.sh
+[4.732s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/environment/ament_prefix_path.dsv
+[4.739s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/environment/path.sh
+[4.746s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/environment/path.dsv
+[4.754s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/local_setup.bash
+[4.760s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/local_setup.sh
+[4.767s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/local_setup.zsh
+[4.774s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/local_setup.dsv
+[4.781s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.dsv
+[4.787s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/ament_index/resource_index/packages/node_service
+[4.796s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/cmake/node_serviceConfig.cmake
+[4.804s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/cmake/node_serviceConfig-version.cmake
+[4.811s] -- Symlinking: /home/ugie_home/Wook/blog_ws/install/node_service/share/node_service/package.xml
+[4.820s] Invoked command in '/home/ugie_home/Wook/blog_ws/build/node_service' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ugie_home/Wook/blog_ws/build/node_service
