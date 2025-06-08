@@ -1,1 +1,0 @@
-/home/ugie_home/Wook/blog_ws/build/node_topic/ament_cmake_core/node_topicConfig-version.cmake
