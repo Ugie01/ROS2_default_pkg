@@ -1,0 +1,5 @@
+int32 order         # Goal: 생성할 수열 길이 (클라이언트 → 서버)
+---
+int32[] sequence    # Result: 완성된 수열 (서버 → 클라이언트)
+---
+int32[] partial     # Feedback: 현재까지 생성된 수열 (서버 → 클라이언트)
